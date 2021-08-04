@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ART CLUB BY PRIYANKA</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('image/imge1.webp');
+    }
+
+    .left {
+        position: absolute;
+        left: 34px;
+        top: 18px;
+        display: inline-block;
+        /*border: 2px solid red;*/
+    }
+
+    .left img {
+        width: 100px;
+    }
+
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 18px auto;
+      /*  border: 2px solid green;*/
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 18px;
+        display: inline-block;
+       /* border: 2px solid blue;*/
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        font-size: 18px;
+        color: whitesmoke;
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: whitesmoke;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    .navbar li a:hover,
+    navbar li a:active {
+        color: rgb(187, 210, 221);
+        text-decoration: underline;
+        padding: 10px;
+    }
+
+    .btn {
+        margin: 10px, 10px;
+        background-color: black;
+        color: white;
+        padding: 3px, 4px;
+        border: 2px solid gray;
+        border-radius: 4px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background: gray;
+    }
+
+    .container {
+        background: rgb(241, 218, 241);
+        border: 2px solid white;
+        margin: 100px 900px;
+        padding-right: auto;
+        padding: 75px;
+        width: 20%;
+        border-radius: 28px;
+    }
+
+    .claasgrp input {
+        text-align: center;
+        display: block;
+        width: 200px;
+        padding: 6px;
+        border: 2px solid black;
+        font-size: 9px;
+        margin: 15px, auto;
+        border-radius: 10px;
+    }
+
+    .container h1 {
+        text-align: center;
+        color:rgb(43, 31, 224);
+    }
+
+   /* .container button {
+        display: block;
+        width: 23%;
+        margin: auto;
+    }*/
+    
+</style>
+
+<body>
+    <header class="header">
+
+        <div class="left">
+            <img src="image/image.jpg" alt="">
+            <div>Artist Priyanka</div>
+
+
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a> </li>
+                <li><a href="#">Arts & crafts</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+            <div class="right">
+                <button class="btn">Register</button><button class="btn">Login </button>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the art club by Artist Priyanka</h1>
+        <form action="noaction.php">
+            <div class="claasgrp">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="claasgrp">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="claasgrp">
+                <input type="text" name="" placeholder="Enter your City">
+            </div>
+            <div class="claasgrp">
+                <input type="text" name="" placeholder="Enter your contact number">
+            </div>
+            <div class="claasgrp">
+                <input type="text" name="" placeholder="Enter your email id">
+            </div>
+            <button class="btn">Submit</button>
+    </div>
+    </form>
+
+
+</body>
+
+</html>
